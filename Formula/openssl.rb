@@ -4,7 +4,7 @@
 class Openssl < Formula
   desc "SSL/TLS cryptography library"
   homepage "https://openssl.org/"
-  url "https://www.openssl.org/source/openssl-1.0.2t.tar.gz"
+  url "https://www.openssl.org/source/openssl-1.0.2i.tar.gz"
   sha256 "14cb464efe7ac6b54799b34456bd69558a749a4931ecfd9cf9f71d7881cac7bc"
 
   keg_only :provided_by_macos,
