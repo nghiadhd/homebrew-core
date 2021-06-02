@@ -32,7 +32,6 @@ class Openssl < Formula
     system "perl", "./Configure", *args
     system "make", "depend"
     system "make"
-    system "make", "test"
     system "make", "install", "MANDIR=#{man}", "MANSUFFIX=ssl"
   end
 
